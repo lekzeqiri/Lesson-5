@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lesson 5 </title>
+        <style>
+            table, td, th
+            {
+                border: 1px solid;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <th>Firstname</td>
+                <th>Lastname</td>
+                <th>Age</td>
+                <th>Email</td>   
+            </tr>
+            <tr>
+                <th>John</td>
+                <th>Doe</td>
+                <th>45</td>
+                <th>johndoe@gmail.com</td>    
+            </tr>
+            <tr>
+                <th>Jane</td>
+                <th>Doe</td>
+                <th>42</td>
+                <th>janedoe@gmail.com</td>    
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Table footer</td>
+                </tr>
+            </tfoot>
+        </table>
+        
+        <hr>
+
+        <!-- Second table -->
+        <table>
+            <tr>
+                <th> Name: </th>
+                <th> John Smith </th>
+                <th> Richard Roe </th>
+            </tr>
+            <tr>
+                <th rowspan="2"> Email: </th>
+                <td> Johnsmith@gmail.com </td>
+                <td rowspan="2"> Richardroe@gmail.com </td>
+            </tr>
+            <tr>
+                <td> johndoe@hotmail.com</td>
+            </tr>          
+        </table>
+
+        <hr>
+
+        <ul>
+            <li> HTML</li>
+            <li> CSS </li>
+            <li> JavaScript</li>
+            <li> PHP </li>
+        </ul>
+
+        <hr>
+        
+        <ol>
+            <li> HTML</li>
+            <li> CSS </li>
+            <li> JavaScript</li>
+            <li> PHP </li>
+        </ol>
+
+        <br> <hr>
+
+        <p> We have a meeting at <time> 15:00</time> today.</p>
+        <p> We have a meeting at <time datetime="2026-11-24 15:00">15:00</time> today.</p>
+
+        <label for="task"> Task completion:</label>
+        <progress id="task" value="20" max="100"></progress> 20%
+    </body>
+
+</html>
